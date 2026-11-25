@@ -46,7 +46,7 @@ export default function Home() {
   });
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-4">
+    <main className="flex min-h-screen flex-col items-center justify-center p-4 bg-zinc-950">
       <div className="w-full max-w-md space-y-8">
         <div className="text-center space-y-2">
           <h1 className="text-2xl font-bold tracking-tight text-green-500">
@@ -64,7 +64,7 @@ export default function Home() {
                 your Identity
               </label>
               <div className="flex items-baseline gap3">
-                <div className="flex-1 bg-zinc-950 border border-zinc-899 p-3 text-sm">
+                <div className="flex-1 bg-zinc-950 border border-zinc-899 p-3 text-sm text-zinc-600">
                   {username}
                 </div>
               </div>
