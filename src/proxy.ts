@@ -37,5 +37,5 @@ export const proxy = async (req: NextRequest) => {
 };
 
 export const config = {
-  mathcer: "/room/:path*",
+  matcher: "/room/:path*",
 };
